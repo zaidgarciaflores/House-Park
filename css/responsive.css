@@ -1,0 +1,728 @@
+@media (max-width:768px){
+	#header{
+		height: 1024px;
+	}
+	
+	#banner{
+		background-image: url("../img/Tablet/Banner.jpg");
+		background-position: center;
+		background-size: cover;
+	}
+	
+	#background-gray{
+		margin: auto;
+		width: 100%;
+		height: 100%;
+		background-color: rgba(96, 96, 96, 0.5);
+	}
+	
+	#logo{
+		float: none;
+		margin: auto;
+		padding-top: 40px;
+	}
+	
+	#logo img{
+		width: 136px;
+		height: 134px;
+	}
+	
+	#menu{
+		margin-top: 40px;
+		height: 24px;
+	}
+	
+	#menu ul li{
+		margin: 0px 30px 0px 30px;
+	}
+	
+	#menu ul li a{
+		font-size: 16px;
+	}
+	
+	#header #banner h1{
+		padding-top: 500px;
+		width: 570px;
+		font-size: 36px;
+	}
+	
+	#header #banner #cita{
+		margin-top: 90px;
+		width: 218px;
+		height: 38px;
+		font-size: 18px;
+		line-height: 40px;
+	}
+	
+	#residencial{
+		height: 460px;
+		background-image: url("../img/Tablet/Residencial.jpg");
+		background-position: center;
+		background-size: cover;
+	}
+	
+	#info-residencial{
+		margin-top: 100px;
+		width: 400px;
+		height: 245px;
+	}
+	
+	#info-residencial h2{
+		margin-top: 20px;
+		margin-left: 50px;
+		font-size: 22px;
+	}
+	
+	#info-residencial p{
+		margin-top: 15px;
+		margin-left: 50px;
+		width: 320px;
+		font-size: 13px;
+	}
+	
+	#oficinas{
+		height: 460px;
+		background-image: url("../img/Tablet/Oficinas.jpg");
+		background-position: center;
+		background-size: cover;
+	}
+	
+	#info-oficinas{
+		margin-top: 120px;
+		width: 420px;
+		height: 225px;
+	}
+	
+	#info-oficinas h2{
+		margin-top: 20px;
+		margin-right: 50px;
+		font-size: 22px;
+	}
+	
+	#info-oficinas p{
+		margin-top: 15px;
+		margin-left: 33px;
+		width: 340px;
+		font-size: 13px;
+	}
+	
+	#beneficios{
+		height: 1440px;
+	}
+	
+	.beneficio{
+		width: 50%;
+		height: 25%;
+	}
+	
+	#beneficios .beneficio:nth-child(1) img{
+		margin-top: 81px;
+		margin-bottom: 45px;
+		width: 170px;
+		height: 130.9px;
+	}
+	
+	#beneficios .beneficio:nth-child(2) img{
+		margin-top: 62px;
+		margin-bottom: 45px;
+		width: 150px;
+		height: 150px;
+	}
+	
+	#beneficios .beneficio:nth-child(3) img{
+		margin-top: 100px;
+		margin-bottom: 45px;
+		width: 170px;
+		height: 112.2px;
+	}
+	
+	#beneficios .beneficio:nth-child(4) img{
+		margin-top: 62px;
+		margin-bottom: 45px;
+		width: 150px;
+		height: 150px;
+	}
+	
+	#beneficios .beneficio:nth-child(5) img{
+		margin-top: 62px;
+		margin-bottom: 45px;
+		width: 135px;
+		height: 150px;
+	}
+	
+	#beneficios .beneficio:nth-child(6) img{
+		margin-top: 60px;
+		margin-bottom: 45px;
+		width: 170px;
+		height: 152.15px;
+	}
+	
+	#beneficios .beneficio:nth-child(7) img{
+		margin-top: 62px;
+		margin-bottom: 45px;
+		width: 150px;
+		height: 150px;
+	}
+	
+	#beneficios .beneficio:nth-child(8) img{
+		margin-top: 62px;
+		margin-bottom: 45px;
+		width: 137.25px;
+		height: 150px;
+	}
+	
+	.categoria{
+		margin-bottom: 61px;
+		font-size: 24px;
+	}
+	
+	.descripcion h3{
+		padding-top: 83px;
+		font-size: 24px;
+	}
+	
+	.descripcion p{
+		margin-top: 58px;
+		font-size: 18px;
+	}
+	
+	.descripcion-albercas{
+		width: 240px;
+	}
+	
+	.descripcion-gimnasio{
+		width: 250px;
+	}
+	
+	.descripcion-estacionamiento{
+		width: 205px;
+	}
+	
+	.descripcion-valet{
+		width: 300px;
+	}
+	
+	.descripcion-areas{
+		width: 270px;
+	}
+	
+	.descripcion-masajes{
+		width: 205px;
+	}
+	
+	.descripcion-spa{
+		width: 280px;
+	}
+	
+	.descripcion-cafeteria{
+		width: 275px;
+	}
+	
+	.beneficio:hover .descripcion{
+		transform: translateY(0%);
+	}
+	
+	.beneficio:active .descripcion{
+		transform: translateY(-100%);
+	}
+	
+	#formulario{
+		height: 570px;
+	}
+	
+	#background h4{
+		padding-top: 60px;
+		font-size: 25px;
+	}
+	
+	#background p{
+		font-size: 25px;
+	}
+	
+	#form{
+		margin-top: 60px;
+		width: 364px;
+	}
+	
+	#form #nombre{
+		font-size: 15px;
+	}
+	
+	input[type="text"]{
+		margin-top: 10px;
+		height: 33px;
+		font-size: 15px;
+	}
+	
+	#form #correo{
+		margin-top: 75px;
+		font-size: 15px;
+	}
+	
+	input[type="email"]{
+		margin-top: 10px;
+		height: 33px;
+		font-size: 15px;
+	}
+	
+	input[type="submit"]{
+		margin-top: 75px;
+		width: 120px;
+		height: 37px;
+		font-size: 19px;
+		line-height: 40px;
+	}
+	
+	#mapa{
+		height: 394px;
+	}
+	
+	#showroom{
+		margin-top: -280px;
+		width: 360px;
+		height: 171px;
+	}
+	
+	#showroom h4{
+		margin-top: 20px;
+		margin-left: 50px;
+		font-size: 18px;
+	}
+	
+	#showroom p:nth-child(2){
+		margin-top: 15px;
+		margin-left: 50px;
+		width: 195px;
+		font-size: 13px;
+	}
+	
+	#showroom p:nth-child(3){
+		margin-top: 7px;
+		margin-left: 50px;
+		font-size: 13px;
+	}
+	
+	#showroom p:nth-child(4){
+		margin-top: 7px;
+		margin-left: 50px;
+		font-size: 13px;
+	}
+	
+	#footer{
+		height: 260px;
+	}
+	
+	#widgets{
+		width: 86.97%;
+		height: 210px;
+	}
+	
+	.widget h5{
+		margin-top: 30px;
+		margin-bottom: 20px;
+		font-size: 11px;
+	}
+	
+	.widget ul li{
+		line-height: 20px;
+	}
+	
+	.widget ul li a{
+		font-size: 10px;
+	}
+	
+	.widget #clientes,
+	.widget #ventas,
+	.widget #corporativo{
+		font-size: 10px;
+		margin-bottom: 10px;
+	}
+	
+	#remate{
+		height: 50px;
+		font-size: 10px;
+	}
+	
+	#remate p:nth-child(1){
+		padding-top: 9px;
+	}
+}
+
+@media (max-width:414px){
+	#header{
+		height: 896px;
+	}
+	
+	#banner{
+		background-image: url("../img/Móvil/Banner.jpg");
+		background-position: center;
+		background-size: cover;
+	}
+	
+	#background-gray{
+		background-color: rgba(128, 128, 128, 0.4);
+	}
+	
+	#logo{
+		padding-top: 40px;
+	}
+	
+	#logo img{
+		width: 144px;
+		height: 142px;
+	}
+	
+	#menu{
+		margin-top: 35px;
+		margin-right: 22px;
+		height: 17px;
+	}
+	
+	#menu ul li{
+		margin: 0px 15px 0px 15px;
+	}
+	
+	#menu ul li a{
+		font-size: 12px;
+	}
+	
+	#header #banner h1{
+		padding-top: 230px;
+		width: 345px;
+		font-size: 22px;
+	}
+	
+	#header #banner #cita{
+		margin-top: 240px;
+		width: 232px;
+		height: 40px;
+		font-size: 18px;
+		line-height: 40px;
+	}
+	
+	#residencial{
+		margin-top: 300px;
+		height: 300px;
+		background-image: url("../img/Móvil/Residencial.jpg");
+		background-position: center;
+		background-size: cover;
+	}
+	
+	#info-residencial{
+		float: none;
+		margin: auto;
+		position: absolute;
+		margin-top: -300px;
+		width: 100%;
+		height: 300px;
+		text-align: center;
+	}
+	
+	#info-residencial h2{
+		margin: auto;
+		margin-top: 30px;
+		font-size: 26px;
+	}
+	
+	#info-residencial p{
+		margin: auto;
+		margin-top: 25px;
+		width: 370px;
+		font-size: 15px;
+	}
+	
+	#oficinas{
+		margin-top: 300px;
+		height: 300px;
+		background-image: url("../img/Móvil/Oficinas.jpg");
+		background-position: center;
+		background-size: cover;
+	}
+	
+	#info-oficinas{
+		float: none;
+		margin: auto;
+		position: absolute;
+		margin-top: -300px;
+		width: 100%;
+		height: 300px;
+		text-align: center;
+	}
+	
+	#info-oficinas h2{
+		margin: auto;
+		margin-top: 30px;
+		font-size: 26px;
+	}
+	
+	#info-oficinas p{
+		margin: auto;
+		margin-top: 25px;
+		width: 370px;
+		font-size: 15px;
+	}
+	
+	#beneficios{
+		height: 2720px;
+	}
+	
+	.beneficio{
+		width: 100%;
+		height: 12.5%;
+	}
+	
+	#beneficios .beneficio:nth-child(1) img{
+		margin-top: 61px;
+		margin-bottom: 50px;
+		width: 194.81px;
+		height: 150px;
+	}
+	
+	#beneficios .beneficio:nth-child(2) img{
+		margin-top: 51px;
+		margin-bottom: 50px;
+		width: 160px;
+		height: 160px;
+	}
+	
+	#beneficios .beneficio:nth-child(3) img{
+		margin-top: 61px;
+		margin-bottom: 50px;
+		width: 227.27px;
+		height: 150px;
+	}
+	
+	#beneficios .beneficio:nth-child(4) img{
+		margin-top: 51px;
+		margin-bottom: 50px;
+		width: 160px;
+		height: 160px;
+	}
+	
+	#beneficios .beneficio:nth-child(5) img{
+		margin-top: 51px;
+		margin-bottom: 50px;
+		width: 144px;
+		height: 160px;
+	}
+	
+	#beneficios .beneficio:nth-child(6) img{
+		margin-top: 61px;
+		margin-bottom: 50px;
+		width: 167.6px;
+		height: 150px;
+	}
+	
+	#beneficios .beneficio:nth-child(7) img{
+		margin-top: 51px;
+		margin-bottom: 50px;
+		width: 160px;
+		height: 160px;
+	}
+	
+	#beneficios .beneficio:nth-child(8) img{
+		margin-top: 51px;
+		margin-bottom: 50px;
+		width: 146.4px;
+		height: 160px;
+	}
+	
+	.categoria{
+		margin-bottom: 30px;
+		font-size: 28px;
+	}
+	
+	.descripcion h3{
+		padding-top: 65px;
+		font-size: 28px;
+	}
+	
+	.descripcion p{
+		margin-top: 60px;
+		font-size: 20px;
+	}
+	
+	.descripcion-albercas{
+		width: 265px;
+	}
+	
+	.descripcion-gimnasio{
+		width: 280px;
+	}
+	
+	.descripcion-estacionamiento{
+		width: 235px;
+	}
+	
+	.descripcion-valet{
+		width: 330px;
+	}
+	
+	.descripcion-areas{
+		width: 300px;
+	}
+	
+	.descripcion-masajes{
+		width: 230px;
+	}
+	
+	.descripcion-spa{
+		width: 315px;
+	}
+	
+	.descripcion-cafeteria{
+		width: 310px;
+	}
+	
+	#formulario{
+		height: 530px;
+		background-image: url("../img/Móvil/Casa.jpg");
+		background-position: center;
+		background-size: cover;
+	}
+	
+	#background{
+		background-color: rgba(60, 60, 60, .65);
+	}
+	
+	#background h4{
+		padding-top: 50px;
+		font-size: 28px;
+	}
+	
+	#background p{
+		margin-top: 20px;
+		font-size: 18px;
+	}
+	
+	#form{
+		margin-top: 45px;
+		width: 262px;
+	}
+	
+	#form #nombre{
+		font-size: 13px;
+	}
+	
+	input[type="text"]{
+		margin-top: 10px;
+		height: 23px;
+		font-size: 13px;
+	}
+	
+	#form #correo{
+		margin-top: 47px;
+		font-size: 13px;
+	}
+	
+	input[type="email"]{
+		margin-top: 10px;
+		height: 23px;
+		font-size: 13px;
+	}
+	
+	input[type="submit"]{
+		margin-top: 60px;
+		width: 134px;
+		height: 41px;
+		font-size: 20px;
+		line-height: 41px;
+	}
+	
+	#mapa{
+		margin-top: 160px;
+		height: 300px;
+	}
+	
+	#showroom{
+		margin-top: -467px;
+		width: 100%;
+		height: 160px;
+		background-color: #AF8934;
+		text-align: center;
+	}
+	
+	#showroom h4{
+		margin: auto;
+		margin-top: 20px;
+		font-size: 24px;
+	}
+	
+	#showroom p:nth-child(2){
+		margin: auto;
+		margin-top: 20px;
+		width: 340px;
+		font-size: 14px;
+	}
+	
+	#showroom p:nth-child(3){
+		margin: auto;
+		margin-top: 5px;
+		font-size: 14px;
+	}
+	
+	#showroom p:nth-child(4){
+		margin: auto;
+		margin-top: 5px;
+		font-size: 14px;
+	}
+	
+	#footer{
+		height: 605px;
+	}
+	
+	#widgets{
+		width: 100%;
+		height: 565px;
+	}
+	
+	.widget{
+		float: none;
+		margin: auto;
+		width: 100%;
+		text-align: center;
+	}
+	
+	#widgets .widget:nth-child(1){
+		height: 190px;
+	}
+	
+	#widgets .widget:nth-child(2){
+		height: 165px;
+	}
+	
+	#widgets .widget:nth-child(3){
+		height: 210px;
+	}
+	
+	.widget h5{
+		margin: auto;
+		padding-top: 20px;
+		margin-bottom: 15px;
+		font-size: 14px;
+	}
+	
+	.widget ul li{
+		line-height: 22.5px;
+	}
+	
+	.widget ul li a{
+		font-size: 12px;
+	}
+	
+	.widget #clientes,
+	.widget #ventas,
+	.widget #corporativo{
+		font-size: 12px;
+		margin-bottom: 15px;
+	}
+	
+	#remate{
+		height: 40px;
+		font-size: 9px;
+	}
+	
+	#remate p:nth-child(1){
+		padding-top: 8px;
+	}
+}
